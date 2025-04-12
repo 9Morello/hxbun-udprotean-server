@@ -1,0 +1,4 @@
+-lib jsasync
+-lib hxbun
+-D js-es=6
+--macro jsasync.JSAsync.use("hxbun")

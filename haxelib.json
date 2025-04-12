@@ -1,0 +1,21 @@
+{
+  "name": "hxbun-udprotean-server",
+  "url": "https://github.com/9Morello/hxbun-udprotean-server",
+  "license": "AGPL-3.0",
+  "tags": [
+    "udp",
+    "multiplayer",
+    "udprotean",
+    "reliable",
+    "inorder",
+    "networking",
+    "javascript",
+    "bun"
+  ],
+  "description": "Bun-based implementation of the UDProtean server protocol, using hxbun.",
+  "version": "0.1.0",
+  "classPath": "src",
+  "releasenote": "Initial release.",
+  "contributors": ["gravityWall"],
+  "dependencies": { "hxbun": "", "jsasync": "" }
+}

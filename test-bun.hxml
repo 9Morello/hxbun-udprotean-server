@@ -1,0 +1,11 @@
+-cp src
+-lib hxnodejs
+-lib console.hx
+-lib jsasync
+-lib hxbun
+-D js-es=6
+-D js-source-map
+--dce full
+--main BunTestMain
+--js bin/main.js
+--macro jsasync.JSAsync.use("hxbun")
